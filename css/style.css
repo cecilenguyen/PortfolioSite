@@ -1,20 +1,20 @@
 /* header styling */
 
-#header-div {
+.header-div {
     text-align: right;
     float: right;
 }
 
-#header-div h1 {
-    font-family: 'Trebuchet MS';
+.header-div h1 {
+    font-family: "Trebuchet MS";
     font-weight: bold;
 }
 
-#header-div h3 {
+.header-div h3 {
     font-family: Verdana;
 }
 
-#header-div h2 {
+.header-div h2 {
     float: right;
     font-family: Times;
 }
@@ -23,8 +23,9 @@
     width: 100%;
 }
 
-#logo {
+.logo {
     width: 100px;
+    padding: 15px;
 }
 
 /* center section styling */
@@ -34,12 +35,12 @@ hr {
     border: solid 2px #7d97ad;
 }
 
-#center-img-container {
+.center-img-container {
     height: 350px;
     overflow: hidden;
 }
 
-#featured-work {
+.featured-work {
     color: grey;
 }
 
@@ -59,7 +60,7 @@ p {
 }
 
 .proj-title h2 {
-    font-family: 'Trebuchet MS';
+    font-family: "Trebuchet MS";
 }
 
 .proj-title a {
